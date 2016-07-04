@@ -234,17 +234,22 @@ $border: #E2E2E2;
 				margin-top: 15px;
 				margin-left: 15px;
 				display: flex;
-				justify-content: center;
 				h3 {
 					width: auto;
 					height: 23px;
 					display: flex;
 					align-items: center;
-					margin-top: 15px;
+					margin-top: 47px;
+					margin-left: 23px;
+					float: right;
 				}
 				#userAvatar {
-					width: 0px;
-					height: 0px;
+					width: 65px;
+					height: 65px;
+					border: 1px solid $barcolors;
+					margin-top: 25px;
+					margin-left: 30px;
+					float: left;
 				}
 			}
 		}
